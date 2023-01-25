@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>Learning Arry Traversing</title>
+</body>
+<script>
+    var ary = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140];
+    console.log('index wise traversing');
+    for (var i=0; i<=ary.length-1;i++)
+    {
+        console.log(ary[i]);
+    }
+    console.log('index wise traversing in reverse order');
+    for (var i=ary.length-1;i>=0;i--)
+    {
+        console.log(ary[i]);
+    }
+    console.log("Element wise travsering");
+    for(var i of ary)
+    {
+        console.log(i);
+    }
+
+    var a=["hello","Prerna","You're Great"];
+    console.log("Element wise traversing");
+    for (var i of a)
+    {
+        console.log(i);
+    }console.log(typeof a);
+</script>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var ary=[10,20,30,40,50,60,70,1,80,90,5,6,4,3,2,6];
+    var smallest=ary[0];
+    console.log('We are finding here smallest element');
+    for (var i of ary)
+    {
+       if (i<smallest)
+       {
+        smallest=i;
+       }
+    }console.log('smallest element here is ' + smallest);
+
+    var largest=ary[0];
+    console.log('We are finding here Largest element')
+    for (var i of ary)
+    {
+        if (i>largest)
+        {
+            largest=i;
+        }
+    }console.log("largest element here is " +largest);
+    
+
+    // var array=[12,13,17,98,67,146,97,65,87,46,09,46,56];
+    // var b=array[0];
+    // var sb=array[0];
+    // console.log("we are finding here biggest and second biggest element");
+    // for(var i of array)
+    // {
+    //     if(i>b);
+    //     {
+    //         b=i;
+    //     }
+    //     for(var i of array)
+    //     {
+    //         if(i>sb && i!=b);
+    //         {
+    //             sb=i;
+    //         }
+    //     }
+    // }
+    // console.log("Our bigggest value is " +b);
+    // console.log("Our second biggest value is " +sb);
+    var a=[1,2,3,4,56,7,8];
+    var e=parseInt(prompt("Please enter a number"));
+    for (var i of a)
+    {
+        if(e==i)
+        {
+            console.log("Your element is found");
+            break;
+        }
+        else(e!==i)
+        {
+            console.log("Your element is not found here");
+        }
+    }
+</script>
+
+</html>
